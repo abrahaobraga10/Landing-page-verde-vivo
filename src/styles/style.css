@@ -1,0 +1,243 @@
+
+body{
+    background-color: #090909;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-foto{
+    height: 30em;
+    width: 100%;
+    box-shadow: inset 30px 30px 15px -7px rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url(../images/pexels-harry-cooke-6805872.jpg);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.conteiner {
+    height: 340px;
+    width: 100%;
+}
+
+nav #menu-on-top{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.title{
+    font-family: "ubuntu";
+    text-shadow: 10px 10px 5px black;
+}
+#sub-title-principal{
+    font-family: "Inter";
+    font-size: 26px;
+    font-weight: 200;
+    text-shadow: 10px 10px 5px black;
+}
+#principal-title{
+    margin-top: 0;
+    font-size: 40px;
+}
+
+#logo-title-subtitle img {
+  filter: drop-shadow(5px 5px 40px rgb(0, 0, 0));
+}
+
+
+
+/* Menu */
+.menu ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+.menu ul li {
+    padding: .5em;
+}
+
+.menu ul li:hover {
+    background-color: #82ba3d;
+    color: aliceblue;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+.menu li {
+    text-align: center;
+}
+
+
+.menu ul li a:hover {
+    color:rgb(0, 0, 0);
+}
+
+/* content */
+
+#beneficios{
+    height: 600px;
+    width: 100%;
+}
+
+.hero{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12em;
+}
+
+.hero h1 {
+    font-family: "Ubuntu";
+    color: #82ba3d;
+    font-size: 50px;
+    padding: 1.5em 1.5em 0.3em;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: "Inter";
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.hero h3 {
+    font-family: inter;
+    width: 450px;
+    padding: 1em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cta {
+    align-items: center;
+    display: flex;
+}
+
+.cta-form{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.getters{
+    width: 30em;
+    height: 2.5em;
+    margin: 1em;
+    border-radius: 1.5em;
+    background-color: #090909;
+    border: solid 1px #82ba3d;
+    font-size: 18px;
+    color: #ffffff;
+    
+}
+.getters::placeholder{
+    color: #82ba3da2;
+    font-family: "Inter";
+    font-size: 20px;
+    padding: 0.2em;
+}
+
+#quero button{
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: 1em;
+    padding: 0.5em;
+    background-color: #82ba3d;
+}
+
+#quero button:hover{
+    color: #fff;
+}
+
+#quero button:active{
+     filter: drop-shadow(3px 3px 10px rgb(0, 0, 0));
+}
+
+#beneficts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+
+}
+#beneficio-title{
+    font-family: "Ubuntu";
+    font-size: 45px;
+    margin-bottom: 0;
+
+}
+
+.beneficio{
+
+    border: solid 1px #82ba3d;
+    border-radius: 0.5em;
+    background-color: #82ba3d;
+
+}
+#beneficios{
+    width: 80%;
+    min-height: 5em;
+    height: auto;
+    margin: 5em;
+    display: flex;
+    margin-top: 1em;
+}
+
+#beneficios h3{
+    font-size: 2em;
+    font-family: "Ubuntu";
+    margin: 1em;
+    color: #000;
+}
+
+#beneficios p {
+    font-size: 1.5em;
+    margin: 1.5em;
+    transform: translateY(10px); 
+    transition: opacity 0.4s ease, transform 0.4s ease; 
+    display: none ;
+    font-family: "Inter";
+    font-weight: 200;
+    text-align: center;
+    color: #000;
+    width: 200px;
+}
+
+#beneficios div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: flex-grow 0.5s ease;
+    margin: 0.2em;
+}
+
+#beneficios div:hover{
+    flex-grow: 10;
+}
+
+#beneficios :hover p{
+    display:flex;
+    margin: 2px;
+    transform: translateY(0)
+}
