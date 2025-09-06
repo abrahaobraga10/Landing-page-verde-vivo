@@ -44,7 +44,7 @@ A landing page foi desenvolvida para funcionar bem em:
 ---
 
 ## 🔗 Acesso
-Você pode visualizar a landing page clicando [aqui](https://seulink.com)  
+Você pode visualizar a landing page clicando [aqui](https://abrahaobraga10.github.io/Landing-page-verde-vivo/)  
  
 
 ---
