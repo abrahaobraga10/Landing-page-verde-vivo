@@ -1,0 +1,124 @@
+@media (max-width:450px) {
+
+    nav #menu-on-top {
+        height: 20px;
+
+    }
+
+    .menu ul li {
+        padding: 0em;
+    }
+
+    .menu ul li a {
+        font-size: 0.8em;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    #logo-foto {
+        height: 17em;
+        width: 100vh;
+
+    }
+
+    #principal-title {
+        font-size: 1.6em;
+    }
+
+
+    #logo-foto img {
+        width: 15em;
+    }
+
+    nav #menu-on-top {
+        height: 25px;
+    }
+
+    #baixe {
+        height: auto;
+        width: 100vh;
+    }
+
+    .cta {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+
+    #baixe h1 {
+        font-size: 2em;
+    }
+
+    #baixe h2 {
+        font-size: 1.5em;
+    }
+
+    .getters{
+    width: 20em;
+    height: 2.5em;
+    margin: 1em;
+    font-size: 18px;
+    }
+
+    #beneficts{
+       height: auto;
+    }
+
+    #beneficios{
+    width: 80%;
+    min-height: 5em;
+    height: auto;
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    }
+
+    .dica{
+        display: contents;
+    }
+
+    .como-funciona{
+    height: 13em;
+    width: 14em;
+    padding: 2em;
+    border: solid 7px #82ba3d;
+    border-radius: 2em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+    }
+
+    .como-funciona h1{
+    font-family: "Ubuntu";
+    color: #82ba3d;
+    font-size: .5em;
+    }
+
+
+    .como-funciona p{
+        font-family: "Inter";
+        font-size: 1.3em;
+    }
+
+    #faq-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Title {
+    width: 30em;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+}
+

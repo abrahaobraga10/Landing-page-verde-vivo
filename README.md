@@ -23,11 +23,11 @@ A proposta da página é oferecer um **e-book fictício sobre sustentabilidade**
 
 ---
 
-<!-- ## 📱 Responsividade
+## 📱 Responsividade
 A landing page foi desenvolvida para funcionar bem em:  
 - Desktop 🖥️  
 - Tablets 📱  
-- Smartphones 📲   -->
+- Smartphones 📲  
 
 ---
 
@@ -53,7 +53,7 @@ Você pode visualizar a landing page clicando [aqui](https://abrahaobraga10.gith
 - Melhorar contraste e acessibilidade  
 - Ajustar pequenos detalhes de copywriting  
 - Incluir mais otimizações de SEO  
-- Adicionar Responsividade
+<!-- - Adicionar Responsividade -->
 
 ---
 
