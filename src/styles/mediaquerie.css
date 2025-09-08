@@ -120,5 +120,9 @@
     justify-content: center;
     }
 
+    .content{
+        width: 100vh;
+    }
+
 }
 
